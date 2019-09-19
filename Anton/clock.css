@@ -1,0 +1,49 @@
+.wrap{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  max-width: 400px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.wrap span{
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+}
+.clock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.number{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex: 3;
+  color: #fff;
+  font-size: 35px;
+  background: linear-gradient(to bottom, #555 15%, #444 35%, #222 50%, #111 80%, #000 100%);
+  border-radius: 3px;
+  position: relative;
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 5px;
+}
+.separator{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin: 6px;
+  font-weight: bold;
+}
+.number hr{
+  position: absolute;
+  top: center;
+  border: none;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+}
